@@ -10,7 +10,10 @@ nav > ul> li {
     margin-right: 2em;
 }
 
-header {background-color: aqua;}
+header {
+    background-color: aqua;
+    border-radius: 0.3em;
+}
 
 body {background-color: blue;
 align-content: center;
@@ -22,17 +25,23 @@ main {
     width: 60%;
     text-align: center;
     margin: auto;
-    height: 35em;
+    min-height: 33em;
     margin-bottom: 1.1em;
+    border-radius: 1em;
 }
 
 footer {
     background-color: aqua;
     text-align: center;
+    border-radius: 0.3em;
 }
 
 form button {
     cursor: pointer;
+    border: 2px solid green;
+    border-radius: 0.5em;
+    background-color: aquamarine;
+    margin-top: 1em;
 }
 
 .p {
@@ -42,4 +51,8 @@ form button {
 
 .line {
     text-decoration: line-through;
+}
+
+h1 {
+    padding-top: 1em;
 }
