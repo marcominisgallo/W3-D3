@@ -1,0 +1,45 @@
+nav > ul> li> a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+nav > ul> li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 2em;
+}
+
+header {background-color: aqua;}
+
+body {background-color: blue;
+align-content: center;
+vertical-align: middle;
+}
+
+main {
+    background-color: white;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    height: 35em;
+    margin-bottom: 1.1em;
+}
+
+footer {
+    background-color: aqua;
+    text-align: center;
+}
+
+form button {
+    cursor: pointer;
+}
+
+.p {
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.line {
+    text-decoration: line-through;
+}
